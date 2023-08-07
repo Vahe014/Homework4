@@ -15,7 +15,7 @@ function myInclude(str, checkStr,indexFrom = 0){
 }
 
 
-// console.log(myInclude('barev dzez','r',1))
+// console.log(myInclude('asdaf','r',1))
 
 // IndexOf
 function myIndexOf(str, checkStr,indexFrom) {
