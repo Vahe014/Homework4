@@ -58,7 +58,7 @@ function myReplaceAll(text, str, changeStr) {
   console.log(replacedTxt)
 }
 
-// myReplaceAll(string,'barev', 'hajox')
+// myReplaceAll(string,'a','b')
 
 
 function myReplace(text, str, changeStr) {
@@ -118,8 +118,7 @@ function myIndexOfForArray(arr,element,indexFrom = 0){
 
 // console.log(myIndexOfForArray(array,NaN)) 
 
-const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-
+// Slice
 function mySlice(arr,a,b){
   let newArr = []
   for(let i = a; i < b; i++){
@@ -128,13 +127,7 @@ function mySlice(arr,a,b){
   return newArr
 }
 
-// const slicedFruits = mySlice(fruits,1,3)
 
-fruits.splice(1,1,'aaa')
 
-console.log(fruits)
 
-const months = ['Jan', 'March', 'April', 'June'];
-months.splice(1, 0, 'Feb');
-// Inserts at index 1
-// console.log(months);
+
